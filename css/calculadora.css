@@ -1,0 +1,123 @@
+@charset 'UTF-8';
+
+body{
+    width: 600px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    font-family: "Orbitron", sans-serif;
+}
+
+.calculadora{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    width: 252px;
+    text-align: center;
+    background-color: rgb(36, 154, 250);
+    padding: 20px;
+    border-radius: 10px;
+
+    box-shadow: 5px 5px 5px;
+}
+
+button{
+    box-shadow: 1px 1px 2px;
+}
+
+input{
+   width: 226px; 
+   height: 45px;
+   padding: 10px;
+   font-size: 1.2em;
+   text-align: right;
+   margin-bottom: 10px;
+   border-radius: 10px;
+   border: black 5px solid;
+
+   background-color: black;
+   color: red;
+}
+
+.todos_os_botoes{
+    display: flex;
+}
+
+.bloco_numeros{
+    display: flex;
+    flex-direction: column;
+}
+
+.bloco_numeros div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.bloco_operadores{
+    display: flex;
+    flex-direction: column;
+}
+
+.numeros{
+    width: 60px;
+    height: 60px;
+    font-size: 1.2em;
+    background-color: rgb(255, 255, 255);
+    border: 0px;
+    border-radius: 2px;
+    margin: 2px;
+}
+
+.numeros:hover{
+    background-color: rgb(214, 214, 214);
+    cursor: pointer;
+}
+
+.botao_operadores{
+    width: 60px;
+    height: 60px;
+    font-size: 1.2em;
+    background-color: rgb(255, 0, 13);
+    border: 0px;
+    border-radius: 2px;
+    margin: 2px;
+}
+
+.botao_operadores:hover{
+    background-color: rgb(226, 2, 13);
+    cursor: pointer;
+}
+
+
+.botao_grande{
+    width: 124px;
+    height: 60px;
+    font-size: 1.2em;
+    background-color: rgb(255, 255, 255);
+    border: 0px;
+    border-radius: 2px;
+    margin: 2px;
+}
+
+.botao_grande:hover{
+    background-color: rgb(214, 214, 214);
+    cursor: pointer;
+}
+
+.botao_igual{
+    height: 124px;
+    width: 60px;
+    font-size: 1.2em;
+    background-color: rgb(255, 0, 13);
+    border: 0px;
+    border-radius: 2px;
+    margin: 2px;
+}
+
+.botao_igual:hover{
+    background-color: rgb(226, 2, 13);
+    cursor: pointer;
+}
